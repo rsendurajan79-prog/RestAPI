@@ -22,6 +22,7 @@ jobs:
       
     - name: Test Execution
       run: mvn clean test
+      working-directory: demo
         
     - name: CucumberTest Report Generation
       uses: actions/upload-artifact@v4
