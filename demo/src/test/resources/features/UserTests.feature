@@ -1,5 +1,5 @@
 Feature: User API Validations
-
+  @getUser
   Scenario: Verify specific user details
     Given the API base URI is "https://reqres.in/api"
     When I send a GET request to "/users/2"

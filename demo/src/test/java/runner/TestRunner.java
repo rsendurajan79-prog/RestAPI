@@ -8,7 +8,8 @@ import io.cucumber.testng.CucumberOptions;
     glue = "test.java.stepDefinitions",
     plugin = {"pretty", "html:target/cucumber-reports.html"},
     dryRun = false,
-    monochrome = true
+    monochrome = true,
+    tags = "@getUser"
 
 
 )
